@@ -1,0 +1,15 @@
+.envrc
+.github/workflows/analysis.yml
+.github/workflows/release.yml
+.github/workflows/tests.yml
+.gitignore
+CHANGES.md
+LICENSE
+README.md
+Setup.hs
+app/Main.hs
+default.nix
+hs-template-name.cabal
+nix/sources.json
+nix/sources.nix
+shell.nix
