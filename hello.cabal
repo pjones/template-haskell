@@ -52,7 +52,13 @@ common extensions
     StandaloneDeriving
     TupleSections
 
+library
+  import:          options, dependencies, extensions
+  hs-source-dirs:  src
+  exposed-modules: Hello
+
 executable hello
   import:         options, dependencies, extensions
+  build-depends:  hello
   hs-source-dirs: app
   main-is:        hello.hs

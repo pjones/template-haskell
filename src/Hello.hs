@@ -10,13 +10,11 @@
 --   contained in the LICENSE file.
 --
 -- License: BSD-2-Clause
-module Main
-  ( main,
+module Hello
+  ( hello,
   )
 where
 
-import qualified Hello
-
--- | Main.
-main :: IO ()
-main = Hello.hello
+-- | Print "Hello World!".
+hello :: IO ()
+hello = putStrLn "Hello World!"
