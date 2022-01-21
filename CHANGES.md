@@ -1,5 +1,5 @@
 # Version History
 
-## 0.0.0 -- YYYY-mm-dd
+## 0.0.0 (Unreleased)
 
-  * Initial release.
+  - Unreleased version.
